@@ -28,7 +28,7 @@ Solve the following questions with extension methods (one-liners):
 2. Select numbers in `ys` which are divisible by `7` and greater than `42`.
 3. Select numbers in `ys` which are *leap years*.
 
-Write the answers in the ANSWERS.md file.
+Write the answers in the .pdf file with all non-code solutions.
 
 Implement and test the following extension methods:
 
@@ -45,7 +45,7 @@ Implement the following anonymous functions using the built-in delegates and lam
 1. A method which takes two decimals and returns the product
 1. A method which takes a whole number and a string and returns `true` if they are numerically equal. Note that the string `"  0042"` should return true if the number is `42`
 
-Write the answers in the ANSWERS.md file.
+Write the answers in the .pdf file with all non-code solutions.
 
 You probably want to implement a set of tests to validate the methods.
 
@@ -104,30 +104,14 @@ Each method *must* be implemented twice - once using only *extension methods* an
 
 ### Exercise 1
 
-What is the difference between a scenario and a use case? When do you use each construct?
-
-
-
-### Exercise 2
-Draw the visual part of a use case diagram for a ticket distributor for a train system. The system includes two actors: a traveler, who purchases different types of tickets, and a central computer system, which maintains a reference database for the tariff. Use cases should include: __BuyOneWayTicket__, __BuyWeeklyCard__, __BuyMonthlyCard__, __UpdateTariff__. Also include the following exceptional cases: __Time-Out__ (i.e., traveler took too long to insert the right amount), __TransactionAborted__ (i.e., traveler selected the cancel button without completing the transaction), __DistributorOutOfChange__, and __DistributorOutOfPaper__.
-Write the complete textual part of the __BuyOneWayTicket__ use case; this will require to consider also the exceptional cases.
-
-
-### Exercise 3
-Draw a sequence diagram for the warehouseOnFire scenario of Figure 2-21. Include the objects __bob__, __alice__, __john__, __FRIEND__, and instances of other classes you may need. Draw only the first five message sends.
-
-
-
-### Exercise 4
-
 Research what a Kanban board is.  Possibly starting from [here](https://www.atlassian.com/agile/kanban/boards), acquire sufficient application domain knowledge to write two as-is scenarios that represent the main usage of a physical Kanban board within a software engineering team.  Note: make sure to cite your references in the submission document.  
 
-### Exercise 5
+### Exercise 2
 
 As a design activity (i.e., before writing the code): draw a class diagram representing your design of the entities for the C# part.  The purpose of the diagram should be to `sketch` the main relationships between the entities and their multiplicity.  To challenge yourselves, consider that often teams use the boards to also highlight task allocation (i.e., who is responsible for/will complete/has taken a card) and that nowadays pair programming or other group practices are used to implement code.  How would you model this feature?
 
 
-### Exercise 6
+### Exercise 3
 
 1. The acronym FURPS+ stands for: F_____________; U_____________; R_____________; P_____________; S_____________; +_____________.
 1. The requirements engineering process is an iterative process that includes requirements ______________, ______________, and ______________.
@@ -137,25 +121,25 @@ As a design activity (i.e., before writing the code): draw a class diagram repre
 1. The output of the ______________ activity is the ______________, which include both the non-functional requirements and the functional model.
 
 
-### Exercise 7
+### Exercise 4
 
 1. What level of details should UML models have?
 2. What is the difference between structure diagrams and behavior diagrams in UML?  Provide two examples per category.
 
 
-### Exercise 8
+### Exercise 5
 
 Consider a file system with a graphical user interface, such as Macintosh’s Finder, Microsoft’s Windows Explorer, or Linux’s KDE. The following objects were identified from a use case describing how to copy a file from a floppy disk to a hard disk: File, Icon, TrashCan, Folder, Disk, Pointer. Specify which are entity objects, which are boundary objects, and which are control (interactor) objects.
 
-### Exercise 9
+### Exercise 6
 
 Assuming the same file system as before, consider a scenario consisting of selecting a file on a floppy, dragging it to Folder and releasing the mouse. Identify and define one control (interactor) object associated with this scenario.
 
-### Exercise 10
+### Exercise 7
 
-Arrange the objects listed in Exercises SE.8-9 horizontally on a sequence diagram, the boundary objects to the left, then the control (interactor) object you identified, and finally, the entity objects. Draw the sequence of interactions resulting from dropping the file into a folder. For now, ignore the exceptional cases.
+Arrange the objects listed in Exercises SE.5-6 horizontally on a sequence diagram, the boundary objects to the left, then the control (interactor) object you identified, and finally, the entity objects. Draw the sequence of interactions resulting from dropping the file into a folder. For now, ignore the exceptional cases.
 
-### Exercise 11
+### Exercise 8
 
 From the sequence diagram Figure 2-34, draw the corresponding class diagram. Hint: Start with the participating objects in the sequence diagram.
 
@@ -167,6 +151,5 @@ From the sequence diagram Figure 2-34, draw the corresponding class diagram. Hin
 To submit the assignment you need to create a .pdf document using LaTeX containing the answers to the questions and a link to a public repository containing your fork of the completed code.
 
 Members of the triplets should submit the same PDF file to pass the assignments.  Make sure all group names and ID are clearly marked on the front page. 
-
 
 
