@@ -1,0 +1,25 @@
+name: Build & Test
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+      - Student
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1.7.2
+        with:
+          dotnet-version: 5.0.x
+      - name: Install dependencies
+        run: dotnet restore ./MyApp/MyApp
+      - name: Build
+        run: dotnet build ./MyApp/MyApp --configuration Release --no-restore
+      - name: Test
+        run: dotnet test ./MyApp/MyApp --no-restore --verbosity normal
