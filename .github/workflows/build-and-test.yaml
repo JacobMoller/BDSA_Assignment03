@@ -17,8 +17,8 @@ jobs:
         with:
           dotnet-version: 5.0.x
       - name: Install dependencies
-        run: dotnet restore ./MyApp/MyApp
+        run: dotnet restore ./Assignment3
       - name: Build
-        run: dotnet build ./MyApp/MyApp --configuration Release --no-restore
+        run: dotnet build ./Assignment3 --configuration Release --no-restore
       - name: Test
-        run: dotnet test ./MyApp/MyApp --no-restore --verbosity normal
+        run: dotnet test ./Assignment3 --no-restore --verbosity normal
