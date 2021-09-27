@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace Assignment3
+namespace BDSA2020.Assignment03
 {
     class Program
     {
@@ -11,4 +11,6 @@ namespace Assignment3
             Console.WriteLine("Hello World!");
         }
     }
+
 }
+
