@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Linq;
 
-namespace Assignment3
+namespace BDSA2020.Assignment03
 {
     class Program
     {

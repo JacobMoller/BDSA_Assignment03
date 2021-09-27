@@ -5,7 +5,7 @@ using CsvHelper;
 using System.Linq;
 using System.Globalization;
 
-namespace BDSA2020.Assignment02
+namespace BDSA2020.Assignment03
 {
     public class Wizard
     {
@@ -20,7 +20,7 @@ namespace BDSA2020.Assignment02
 
         public static Lazy<IReadOnlyCollection<Wizard>> Wizards { get; } = new Lazy<IReadOnlyCollection<Wizard>>(() =>
         {
-            var csv = File.OpenText("../../../../Wizards.csv");
+            var csv = File.OpenText("../../../../Wizards.csv"); ///Users/jacobm/BDSA_Assignment03/Wizards.csv
             using var reader = new CsvReader(csv, CultureInfo.InvariantCulture);
             return reader.GetRecords<Wizard>().ToList().AsReadOnly();
         });
